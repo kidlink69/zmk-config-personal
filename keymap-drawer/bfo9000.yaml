@@ -1,0 +1,116 @@
+layout: {zmk_keyboard: bfo9000}
+layers:
+  default: [Esc, Vol Up, Esc, F1, F2, F3, F4, F5, F6, F5, F6, F7, F8, F9, F10, F11, F12, ⌦, Home, Vol Down, '`', '1', '2', '3', '4', '5', '6', '5', '6', '7', '8',
+    '9', '0', '-', '=', '$$mdi:backspace-outline$$', End, ↹, ↹, Q, W, E, R, T, Y, T, Y, U, I, O, P, '[', ']', \, Page Up, Caps Lock, '$$mdi:apple-keyboard-control$$',
+    A, S, D, F, G, H, G, H, J, K, L, ;, '''', ENTER, ENTER, Page Down, ↑, '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, N, B, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$',
+    ↑, lower, ←, ↓, →, '$$mdi:apple-keyboard-control$$', '$$mdi:apple-keyboard-option$$', LMETA, ␣, ␣, ENTER, '$$mdi:backspace-outline$$', ␣, ␣, RMETA, '$$mdi:apple-keyboard-option$$',
+    '$$mdi:apple-keyboard-control$$', ←, ↓, →]
+  lower:
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - {t: BT, h: '5'}
+  - {t: BT, h: '6'}
+  - {t: BT, h: '7'}
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - {t: BT, h: '5'}
+  - {t: BT, h: '6'}
+  - {t: BT, h: '7'}
+  - Out USB
+  - Out BLE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Out USB
+  - Out BLE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - EP ON
+  - EP OFF
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - EP ON
+  - EP OFF
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Reset
+  - Boot
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Reset
+  - Boot
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
+  - {t: '$$mdi:led-on$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$tabler:brightness-down$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:speedometer$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
+  - {t: '$$mdi:led-on$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$tabler:brightness-down$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:speedometer$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:speedometer-slow$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:page-next-outline$$', type: tap_dance}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:speedometer-slow$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:page-next-outline$$', type: tap_dance}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
